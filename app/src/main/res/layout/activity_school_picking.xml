@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_shape_light_blue"
+
+    tools:context=".SchoolPickingActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="187dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="186dp"
+        android:layout_height="62dp"
+        android:fontFamily="@font/futura"
+        android:text="Gradule"
+        android:layout_gravity="center_horizontal"
+
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="268dp"
+        android:layout_height="52dp"
+        android:background="@drawable/rounded_btn"
+        android:backgroundTint="@color/blue_grey_300"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/proceed_to_login"
+        android:layout_width="170dp"
+        android:layout_height="52dp"
+        android:background="@drawable/rounded_btn"
+        android:text="OKAY"
+        android:layout_gravity="center_horizontal"
+
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="230dp" />
+
+</LinearLayout>
